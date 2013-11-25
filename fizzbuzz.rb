@@ -1,5 +1,3 @@
-
-
 def fizzbuzz (num, div_by_num, output_string)
   if (num % div_by_num == 0)
     return output_string
