@@ -11,9 +11,5 @@ end
   output << fizzbuzz(x, 3, "fizz").to_s
   output << fizzbuzz(x, 5, "buzz").to_s
   output << fizzbuzz(x, 7, "sivv").to_s
-  if output == ""
-    puts x
-  else
-    puts output
-  end
+  puts output == "" ? x : output
 end
